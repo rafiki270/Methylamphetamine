@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1571F8B8250AAA5F00A0BA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8B7250AAA5F00A0BA58 /* AppDelegate.swift */; };
+		1571F8BA250AAA5F00A0BA58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8B9250AAA5F00A0BA58 /* SceneDelegate.swift */; };
+		1571F8BC250AAA5F00A0BA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8BB250AAA5F00A0BA58 /* ContentView.swift */; };
+		1571F8BE250AAA6200A0BA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1571F8BD250AAA6200A0BA58 /* Assets.xcassets */; };
+		1571F8C1250AAA6200A0BA58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1571F8C0250AAA6200A0BA58 /* Preview Assets.xcassets */; };
+		1571F8C4250AAA6200A0BA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1571F8C2250AAA6200A0BA58 /* LaunchScreen.storyboard */; };
+		1571F8CF250AAA6200A0BA58 /* MethylamphetamineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8CE250AAA6200A0BA58 /* MethylamphetamineTests.swift */; };
+		1571F8DA250AAA6200A0BA58 /* MethylamphetamineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8D9250AAA6200A0BA58 /* MethylamphetamineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1571F8CB250AAA6200A0BA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1571F8AC250AAA5F00A0BA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1571F8B3250AAA5F00A0BA58;
+			remoteInfo = Methylamphetamine;
+		};
+		1571F8D6250AAA6200A0BA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1571F8AC250AAA5F00A0BA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1571F8B3250AAA5F00A0BA58;
+			remoteInfo = Methylamphetamine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1571F8B4250AAA5F00A0BA58 /* Methylamphetamine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Methylamphetamine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1571F8B7250AAA5F00A0BA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1571F8B9250AAA5F00A0BA58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1571F8BB250AAA5F00A0BA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1571F8BD250AAA6200A0BA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1571F8C0250AAA6200A0BA58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1571F8C3250AAA6200A0BA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1571F8C5250AAA6200A0BA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1571F8CA250AAA6200A0BA58 /* MethylamphetamineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethylamphetamineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1571F8CE250AAA6200A0BA58 /* MethylamphetamineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethylamphetamineTests.swift; sourceTree = "<group>"; };
+		1571F8D0250AAA6200A0BA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1571F8D5250AAA6200A0BA58 /* MethylamphetamineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethylamphetamineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1571F8D9250AAA6200A0BA58 /* MethylamphetamineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethylamphetamineUITests.swift; sourceTree = "<group>"; };
+		1571F8DB250AAA6200A0BA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1571F8B1250AAA5F00A0BA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F8C7250AAA6200A0BA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F8D2250AAA6200A0BA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1571F8AB250AAA5F00A0BA58 = {
+			isa = PBXGroup;
+			children = (
+				1571F8B6250AAA5F00A0BA58 /* Methylamphetamine */,
+				1571F8CD250AAA6200A0BA58 /* MethylamphetamineTests */,
+				1571F8D8250AAA6200A0BA58 /* MethylamphetamineUITests */,
+				1571F8B5250AAA5F00A0BA58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1571F8B5250AAA5F00A0BA58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1571F8B4250AAA5F00A0BA58 /* Methylamphetamine.app */,
+				1571F8CA250AAA6200A0BA58 /* MethylamphetamineTests.xctest */,
+				1571F8D5250AAA6200A0BA58 /* MethylamphetamineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1571F8B6250AAA5F00A0BA58 /* Methylamphetamine */ = {
+			isa = PBXGroup;
+			children = (
+				1571F8B7250AAA5F00A0BA58 /* AppDelegate.swift */,
+				1571F8B9250AAA5F00A0BA58 /* SceneDelegate.swift */,
+				1571F8BB250AAA5F00A0BA58 /* ContentView.swift */,
+				1571F8BD250AAA6200A0BA58 /* Assets.xcassets */,
+				1571F8C2250AAA6200A0BA58 /* LaunchScreen.storyboard */,
+				1571F8C5250AAA6200A0BA58 /* Info.plist */,
+				1571F8BF250AAA6200A0BA58 /* Preview Content */,
+			);
+			path = Methylamphetamine;
+			sourceTree = "<group>";
+		};
+		1571F8BF250AAA6200A0BA58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1571F8C0250AAA6200A0BA58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1571F8CD250AAA6200A0BA58 /* MethylamphetamineTests */ = {
+			isa = PBXGroup;
+			children = (
+				1571F8CE250AAA6200A0BA58 /* MethylamphetamineTests.swift */,
+				1571F8D0250AAA6200A0BA58 /* Info.plist */,
+			);
+			path = MethylamphetamineTests;
+			sourceTree = "<group>";
+		};
+		1571F8D8250AAA6200A0BA58 /* MethylamphetamineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1571F8D9250AAA6200A0BA58 /* MethylamphetamineUITests.swift */,
+				1571F8DB250AAA6200A0BA58 /* Info.plist */,
+			);
+			path = MethylamphetamineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1571F8B3250AAA5F00A0BA58 /* Methylamphetamine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1571F8DE250AAA6200A0BA58 /* Build configuration list for PBXNativeTarget "Methylamphetamine" */;
+			buildPhases = (
+				1571F8B0250AAA5F00A0BA58 /* Sources */,
+				1571F8B1250AAA5F00A0BA58 /* Frameworks */,
+				1571F8B2250AAA5F00A0BA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Methylamphetamine;
+			productName = Methylamphetamine;
+			productReference = 1571F8B4250AAA5F00A0BA58 /* Methylamphetamine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1571F8C9250AAA6200A0BA58 /* MethylamphetamineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1571F8E1250AAA6200A0BA58 /* Build configuration list for PBXNativeTarget "MethylamphetamineTests" */;
+			buildPhases = (
+				1571F8C6250AAA6200A0BA58 /* Sources */,
+				1571F8C7250AAA6200A0BA58 /* Frameworks */,
+				1571F8C8250AAA6200A0BA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1571F8CC250AAA6200A0BA58 /* PBXTargetDependency */,
+			);
+			name = MethylamphetamineTests;
+			productName = MethylamphetamineTests;
+			productReference = 1571F8CA250AAA6200A0BA58 /* MethylamphetamineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1571F8D4250AAA6200A0BA58 /* MethylamphetamineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1571F8E4250AAA6200A0BA58 /* Build configuration list for PBXNativeTarget "MethylamphetamineUITests" */;
+			buildPhases = (
+				1571F8D1250AAA6200A0BA58 /* Sources */,
+				1571F8D2250AAA6200A0BA58 /* Frameworks */,
+				1571F8D3250AAA6200A0BA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1571F8D7250AAA6200A0BA58 /* PBXTargetDependency */,
+			);
+			name = MethylamphetamineUITests;
+			productName = MethylamphetamineUITests;
+			productReference = 1571F8D5250AAA6200A0BA58 /* MethylamphetamineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1571F8AC250AAA5F00A0BA58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Einstore;
+				TargetAttributes = {
+					1571F8B3250AAA5F00A0BA58 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					1571F8C9250AAA6200A0BA58 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1571F8B3250AAA5F00A0BA58;
+					};
+					1571F8D4250AAA6200A0BA58 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1571F8B3250AAA5F00A0BA58;
+					};
+				};
+			};
+			buildConfigurationList = 1571F8AF250AAA5F00A0BA58 /* Build configuration list for PBXProject "Methylamphetamine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1571F8AB250AAA5F00A0BA58;
+			productRefGroup = 1571F8B5250AAA5F00A0BA58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1571F8B3250AAA5F00A0BA58 /* Methylamphetamine */,
+				1571F8C9250AAA6200A0BA58 /* MethylamphetamineTests */,
+				1571F8D4250AAA6200A0BA58 /* MethylamphetamineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1571F8B2250AAA5F00A0BA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1571F8C4250AAA6200A0BA58 /* LaunchScreen.storyboard in Resources */,
+				1571F8C1250AAA6200A0BA58 /* Preview Assets.xcassets in Resources */,
+				1571F8BE250AAA6200A0BA58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F8C8250AAA6200A0BA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F8D3250AAA6200A0BA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1571F8B0250AAA5F00A0BA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1571F8B8250AAA5F00A0BA58 /* AppDelegate.swift in Sources */,
+				1571F8BA250AAA5F00A0BA58 /* SceneDelegate.swift in Sources */,
+				1571F8BC250AAA5F00A0BA58 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F8C6250AAA6200A0BA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1571F8CF250AAA6200A0BA58 /* MethylamphetamineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F8D1250AAA6200A0BA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1571F8DA250AAA6200A0BA58 /* MethylamphetamineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1571F8CC250AAA6200A0BA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1571F8B3250AAA5F00A0BA58 /* Methylamphetamine */;
+			targetProxy = 1571F8CB250AAA6200A0BA58 /* PBXContainerItemProxy */;
+		};
+		1571F8D7250AAA6200A0BA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1571F8B3250AAA5F00A0BA58 /* Methylamphetamine */;
+			targetProxy = 1571F8D6250AAA6200A0BA58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1571F8C2250AAA6200A0BA58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1571F8C3250AAA6200A0BA58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1571F8DC250AAA6200A0BA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1571F8DD250AAA6200A0BA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1571F8DF250AAA6200A0BA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Methylamphetamine/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Methylamphetamine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.Methylamphetamine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1571F8E0250AAA6200A0BA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Methylamphetamine/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Methylamphetamine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.Methylamphetamine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1571F8E2250AAA6200A0BA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				INFOPLIST_FILE = MethylamphetamineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.MethylamphetamineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methylamphetamine.app/Methylamphetamine";
+			};
+			name = Debug;
+		};
+		1571F8E3250AAA6200A0BA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				INFOPLIST_FILE = MethylamphetamineTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.MethylamphetamineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methylamphetamine.app/Methylamphetamine";
+			};
+			name = Release;
+		};
+		1571F8E5250AAA6200A0BA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				INFOPLIST_FILE = MethylamphetamineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.MethylamphetamineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Methylamphetamine;
+			};
+			name = Debug;
+		};
+		1571F8E6250AAA6200A0BA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				INFOPLIST_FILE = MethylamphetamineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.MethylamphetamineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Methylamphetamine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1571F8AF250AAA5F00A0BA58 /* Build configuration list for PBXProject "Methylamphetamine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1571F8DC250AAA6200A0BA58 /* Debug */,
+				1571F8DD250AAA6200A0BA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1571F8DE250AAA6200A0BA58 /* Build configuration list for PBXNativeTarget "Methylamphetamine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1571F8DF250AAA6200A0BA58 /* Debug */,
+				1571F8E0250AAA6200A0BA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1571F8E1250AAA6200A0BA58 /* Build configuration list for PBXNativeTarget "MethylamphetamineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1571F8E2250AAA6200A0BA58 /* Debug */,
+				1571F8E3250AAA6200A0BA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1571F8E4250AAA6200A0BA58 /* Build configuration list for PBXNativeTarget "MethylamphetamineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1571F8E5250AAA6200A0BA58 /* Debug */,
+				1571F8E6250AAA6200A0BA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1571F8AC250AAA5F00A0BA58 /* Project object */;
+}
