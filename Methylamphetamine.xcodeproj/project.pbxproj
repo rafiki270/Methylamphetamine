@@ -31,7 +31,6 @@
 		1571F945250AD1DC00A0BA58 /* Heisenberg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571F909250ABAF400A0BA58 /* Heisenberg.framework */; };
 		159F93E1250F896F009A6637 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F93E0250F896F009A6637 /* SearchBar.swift */; };
 		159F93E4250F9569009A6637 /* FilterSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F93E3250F9569009A6637 /* FilterSelectorView.swift */; };
-		15B12880250ADFB500D64C33 /* PeopleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B1287F250ADFB500D64C33 /* PeopleData.swift */; };
 		15E460322510F260009B1890 /* DetailScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E460312510F260009B1890 /* DetailScreenViewModel.swift */; };
 		15E460342510F5D2009B1890 /* UIImage+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E460332510F5D2009B1890 /* UIImage+App.swift */; };
 		15E4603625114594009B1890 /* MethylamphetamineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4603525114594009B1890 /* MethylamphetamineTests.swift */; };
@@ -119,7 +118,6 @@
 		1571F934250AC81700A0BA58 /* Export.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Export.swift; sourceTree = "<group>"; };
 		159F93E0250F896F009A6637 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		159F93E3250F9569009A6637 /* FilterSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSelectorView.swift; sourceTree = "<group>"; };
-		15B1287F250ADFB500D64C33 /* PeopleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleData.swift; sourceTree = "<group>"; };
 		15E460312510F260009B1890 /* DetailScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenViewModel.swift; sourceTree = "<group>"; };
 		15E460332510F5D2009B1890 /* UIImage+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+App.swift"; sourceTree = "<group>"; };
 		15E4603525114594009B1890 /* MethylamphetamineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethylamphetamineTests.swift; sourceTree = "<group>"; };
@@ -206,8 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				1530F3842510EDCC0071D23A /* Extensions */,
-				1571F8FE250AB6C800A0BA58 /* Networking */,
-				1571F8EA250AAAD000A0BA58 /* Model */,
 				1571F8E9250AAAC600A0BA58 /* Interface */,
 				1571F8B7250AAA5F00A0BA58 /* AppDelegate.swift */,
 				1571F8B9250AAA5F00A0BA58 /* SceneDelegate.swift */,
@@ -272,21 +268,6 @@
 				1571F8E8250AAABD00A0BA58 /* Detail */,
 			);
 			path = Interface;
-			sourceTree = "<group>";
-		};
-		1571F8EA250AAAD000A0BA58 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				15B1287F250ADFB500D64C33 /* PeopleData.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1571F8FE250AB6C800A0BA58 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Networking;
 			sourceTree = "<group>";
 		};
 		1571F90A250ABAF400A0BA58 /* Heisenberg */ = {
@@ -578,7 +559,6 @@
 				1530F3862510EDDC0071D23A /* Set+Tools.swift in Sources */,
 				1571F8B8250AAA5F00A0BA58 /* AppDelegate.swift in Sources */,
 				1571F8BA250AAA5F00A0BA58 /* SceneDelegate.swift in Sources */,
-				15B12880250ADFB500D64C33 /* PeopleData.swift in Sources */,
 				1530F3882510EDFF0071D23A /* HomeScreenViewModel.swift in Sources */,
 				15E460342510F5D2009B1890 /* UIImage+App.swift in Sources */,
 				1571F8F4250AACAF00A0BA58 /* HomeScreenView.swift in Sources */,
