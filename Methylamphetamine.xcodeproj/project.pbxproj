@@ -3,18 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1530F3862510EDDC0071D23A /* Set+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1530F3852510EDDC0071D23A /* Set+Tools.swift */; };
+		1530F3882510EDFF0071D23A /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1530F3872510EDFF0071D23A /* HomeScreenViewModel.swift */; };
 		1571F8B8250AAA5F00A0BA58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8B7250AAA5F00A0BA58 /* AppDelegate.swift */; };
 		1571F8BA250AAA5F00A0BA58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8B9250AAA5F00A0BA58 /* SceneDelegate.swift */; };
-		1571F8BC250AAA5F00A0BA58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8BB250AAA5F00A0BA58 /* ContentView.swift */; };
 		1571F8BE250AAA6200A0BA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1571F8BD250AAA6200A0BA58 /* Assets.xcassets */; };
 		1571F8C1250AAA6200A0BA58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1571F8C0250AAA6200A0BA58 /* Preview Assets.xcassets */; };
 		1571F8C4250AAA6200A0BA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1571F8C2250AAA6200A0BA58 /* LaunchScreen.storyboard */; };
-		1571F8CF250AAA6200A0BA58 /* MethylamphetamineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8CE250AAA6200A0BA58 /* MethylamphetamineTests.swift */; };
 		1571F8DA250AAA6200A0BA58 /* MethylamphetamineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8D9250AAA6200A0BA58 /* MethylamphetamineUITests.swift */; };
+		1571F8F4250AACAF00A0BA58 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8F3250AACAF00A0BA58 /* HomeScreenView.swift */; };
+		1571F8F6250AACC400A0BA58 /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8F5250AACC400A0BA58 /* DetailScreenView.swift */; };
+		1571F912250ABAF400A0BA58 /* Heisenberg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571F909250ABAF400A0BA58 /* Heisenberg.framework */; };
+		1571F919250ABAF400A0BA58 /* HeisenbergTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F918250ABAF400A0BA58 /* HeisenbergTests.swift */; };
+		1571F91B250ABAF400A0BA58 /* Heisenberg.h in Headers */ = {isa = PBXBuildFile; fileRef = 1571F90B250ABAF400A0BA58 /* Heisenberg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1571F91E250ABAF400A0BA58 /* Heisenberg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571F909250ABAF400A0BA58 /* Heisenberg.framework */; };
+		1571F91F250ABAF400A0BA58 /* Heisenberg.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1571F909250ABAF400A0BA58 /* Heisenberg.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1571F92A250ABB1C00A0BA58 /* FetchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F929250ABB1C00A0BA58 /* FetchWorker.swift */; };
+		1571F92D250ABBBC00A0BA58 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1571F92C250ABBBC00A0BA58 /* Alamofire */; };
+		1571F930250ABF1600A0BA58 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F92F250ABF1600A0BA58 /* Person.swift */; };
+		1571F931250AC00000A0BA58 /* FetchHeisenberg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F8FF250AB95100A0BA58 /* FetchHeisenberg.swift */; };
+		1571F933250AC68200A0BA58 /* FetchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F932250AC68200A0BA58 /* FetchError.swift */; };
+		1571F935250AC81700A0BA58 /* Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571F934250AC81700A0BA58 /* Export.swift */; };
+		1571F945250AD1DC00A0BA58 /* Heisenberg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571F909250ABAF400A0BA58 /* Heisenberg.framework */; };
+		159F93E1250F896F009A6637 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F93E0250F896F009A6637 /* SearchBar.swift */; };
+		159F93E4250F9569009A6637 /* FilterSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159F93E3250F9569009A6637 /* FilterSelectorView.swift */; };
+		15B12880250ADFB500D64C33 /* PeopleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B1287F250ADFB500D64C33 /* PeopleData.swift */; };
+		15E460322510F260009B1890 /* DetailScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E460312510F260009B1890 /* DetailScreenViewModel.swift */; };
+		15E460342510F5D2009B1890 /* UIImage+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E460332510F5D2009B1890 /* UIImage+App.swift */; };
+		15E4603625114594009B1890 /* MethylamphetamineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4603525114594009B1890 /* MethylamphetamineTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,23 +52,77 @@
 			remoteGlobalIDString = 1571F8B3250AAA5F00A0BA58;
 			remoteInfo = Methylamphetamine;
 		};
+		1571F913250ABAF400A0BA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1571F8AC250AAA5F00A0BA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1571F908250ABAF400A0BA58;
+			remoteInfo = Heisenberg;
+		};
+		1571F915250ABAF400A0BA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1571F8AC250AAA5F00A0BA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1571F8B3250AAA5F00A0BA58;
+			remoteInfo = Methylamphetamine;
+		};
+		1571F91C250ABAF400A0BA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1571F8AC250AAA5F00A0BA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1571F908250ABAF400A0BA58;
+			remoteInfo = Heisenberg;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1571F923250ABAF400A0BA58 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1571F91F250ABAF400A0BA58 /* Heisenberg.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1530F3852510EDDC0071D23A /* Set+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Set+Tools.swift"; sourceTree = "<group>"; };
+		1530F3872510EDFF0071D23A /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
 		1571F8B4250AAA5F00A0BA58 /* Methylamphetamine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Methylamphetamine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1571F8B7250AAA5F00A0BA58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1571F8B9250AAA5F00A0BA58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1571F8BB250AAA5F00A0BA58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1571F8BD250AAA6200A0BA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1571F8C0250AAA6200A0BA58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1571F8C3250AAA6200A0BA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1571F8C5250AAA6200A0BA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1571F8CA250AAA6200A0BA58 /* MethylamphetamineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethylamphetamineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1571F8CE250AAA6200A0BA58 /* MethylamphetamineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethylamphetamineTests.swift; sourceTree = "<group>"; };
 		1571F8D0250AAA6200A0BA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1571F8D5250AAA6200A0BA58 /* MethylamphetamineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethylamphetamineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1571F8D9250AAA6200A0BA58 /* MethylamphetamineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethylamphetamineUITests.swift; sourceTree = "<group>"; };
 		1571F8DB250AAA6200A0BA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1571F8F3250AACAF00A0BA58 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		1571F8F5250AACC400A0BA58 /* DetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
+		1571F8FF250AB95100A0BA58 /* FetchHeisenberg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchHeisenberg.swift; sourceTree = "<group>"; };
+		1571F909250ABAF400A0BA58 /* Heisenberg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Heisenberg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1571F90B250ABAF400A0BA58 /* Heisenberg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heisenberg.h; sourceTree = "<group>"; };
+		1571F90C250ABAF400A0BA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1571F911250ABAF400A0BA58 /* HeisenbergTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeisenbergTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1571F918250ABAF400A0BA58 /* HeisenbergTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeisenbergTests.swift; sourceTree = "<group>"; };
+		1571F91A250ABAF400A0BA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1571F929250ABB1C00A0BA58 /* FetchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchWorker.swift; sourceTree = "<group>"; };
+		1571F92F250ABF1600A0BA58 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1571F932250AC68200A0BA58 /* FetchError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchError.swift; sourceTree = "<group>"; };
+		1571F934250AC81700A0BA58 /* Export.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Export.swift; sourceTree = "<group>"; };
+		159F93E0250F896F009A6637 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		159F93E3250F9569009A6637 /* FilterSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSelectorView.swift; sourceTree = "<group>"; };
+		15B1287F250ADFB500D64C33 /* PeopleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleData.swift; sourceTree = "<group>"; };
+		15E460312510F260009B1890 /* DetailScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenViewModel.swift; sourceTree = "<group>"; };
+		15E460332510F5D2009B1890 /* UIImage+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+App.swift"; sourceTree = "<group>"; };
+		15E4603525114594009B1890 /* MethylamphetamineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethylamphetamineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1571F91E250ABAF400A0BA58 /* Heisenberg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1571F945250AD1DC00A0BA58 /* Heisenberg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,16 +149,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1571F906250ABAF400A0BA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1571F92D250ABBBC00A0BA58 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F90E250ABAF400A0BA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1571F912250ABAF400A0BA58 /* Heisenberg.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1530F3842510EDCC0071D23A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1530F3852510EDDC0071D23A /* Set+Tools.swift */,
+				15E460332510F5D2009B1890 /* UIImage+App.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		1571F8AB250AAA5F00A0BA58 = {
 			isa = PBXGroup;
 			children = (
 				1571F8B6250AAA5F00A0BA58 /* Methylamphetamine */,
 				1571F8CD250AAA6200A0BA58 /* MethylamphetamineTests */,
 				1571F8D8250AAA6200A0BA58 /* MethylamphetamineUITests */,
+				1571F90A250ABAF400A0BA58 /* Heisenberg */,
+				1571F917250ABAF400A0BA58 /* HeisenbergTests */,
 				1571F8B5250AAA5F00A0BA58 /* Products */,
+				1571F92B250ABBBC00A0BA58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +196,8 @@
 				1571F8B4250AAA5F00A0BA58 /* Methylamphetamine.app */,
 				1571F8CA250AAA6200A0BA58 /* MethylamphetamineTests.xctest */,
 				1571F8D5250AAA6200A0BA58 /* MethylamphetamineUITests.xctest */,
+				1571F909250ABAF400A0BA58 /* Heisenberg.framework */,
+				1571F911250ABAF400A0BA58 /* HeisenbergTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +205,12 @@
 		1571F8B6250AAA5F00A0BA58 /* Methylamphetamine */ = {
 			isa = PBXGroup;
 			children = (
+				1530F3842510EDCC0071D23A /* Extensions */,
+				1571F8FE250AB6C800A0BA58 /* Networking */,
+				1571F8EA250AAAD000A0BA58 /* Model */,
+				1571F8E9250AAAC600A0BA58 /* Interface */,
 				1571F8B7250AAA5F00A0BA58 /* AppDelegate.swift */,
 				1571F8B9250AAA5F00A0BA58 /* SceneDelegate.swift */,
-				1571F8BB250AAA5F00A0BA58 /* ContentView.swift */,
 				1571F8BD250AAA6200A0BA58 /* Assets.xcassets */,
 				1571F8C2250AAA6200A0BA58 /* LaunchScreen.storyboard */,
 				1571F8C5250AAA6200A0BA58 /* Info.plist */,
@@ -121,8 +230,8 @@
 		1571F8CD250AAA6200A0BA58 /* MethylamphetamineTests */ = {
 			isa = PBXGroup;
 			children = (
-				1571F8CE250AAA6200A0BA58 /* MethylamphetamineTests.swift */,
 				1571F8D0250AAA6200A0BA58 /* Info.plist */,
+				15E4603525114594009B1890 /* MethylamphetamineTests.swift */,
 			);
 			path = MethylamphetamineTests;
 			sourceTree = "<group>";
@@ -136,7 +245,132 @@
 			path = MethylamphetamineUITests;
 			sourceTree = "<group>";
 		};
+		1571F8E7250AAAB500A0BA58 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1530F3872510EDFF0071D23A /* HomeScreenViewModel.swift */,
+				1571F8F3250AACAF00A0BA58 /* HomeScreenView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1571F8E8250AAABD00A0BA58 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				15E460312510F260009B1890 /* DetailScreenViewModel.swift */,
+				1571F8F5250AACC400A0BA58 /* DetailScreenView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		1571F8E9250AAAC600A0BA58 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				159F93E2250F9554009A6637 /* Season selector */,
+				159F93DF250F895E009A6637 /* Elements */,
+				1571F8E7250AAAB500A0BA58 /* Home */,
+				1571F8E8250AAABD00A0BA58 /* Detail */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		1571F8EA250AAAD000A0BA58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15B1287F250ADFB500D64C33 /* PeopleData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1571F8FE250AB6C800A0BA58 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1571F90A250ABAF400A0BA58 /* Heisenberg */ = {
+			isa = PBXGroup;
+			children = (
+				1571F92E250ABF0A00A0BA58 /* Model */,
+				1571F928250ABB0A00A0BA58 /* Protocols */,
+				1571F927250ABB0000A0BA58 /* Classes */,
+				1571F90B250ABAF400A0BA58 /* Heisenberg.h */,
+				1571F90C250ABAF400A0BA58 /* Info.plist */,
+				1571F934250AC81700A0BA58 /* Export.swift */,
+			);
+			path = Heisenberg;
+			sourceTree = "<group>";
+		};
+		1571F917250ABAF400A0BA58 /* HeisenbergTests */ = {
+			isa = PBXGroup;
+			children = (
+				1571F918250ABAF400A0BA58 /* HeisenbergTests.swift */,
+				1571F91A250ABAF400A0BA58 /* Info.plist */,
+			);
+			path = HeisenbergTests;
+			sourceTree = "<group>";
+		};
+		1571F927250ABB0000A0BA58 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1571F8FF250AB95100A0BA58 /* FetchHeisenberg.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1571F928250ABB0A00A0BA58 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1571F929250ABB1C00A0BA58 /* FetchWorker.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1571F92B250ABBBC00A0BA58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1571F92E250ABF0A00A0BA58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1571F92F250ABF1600A0BA58 /* Person.swift */,
+				1571F932250AC68200A0BA58 /* FetchError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		159F93DF250F895E009A6637 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				159F93E0250F896F009A6637 /* SearchBar.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		159F93E2250F9554009A6637 /* Season selector */ = {
+			isa = PBXGroup;
+			children = (
+				159F93E3250F9569009A6637 /* FilterSelectorView.swift */,
+			);
+			path = "Season selector";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1571F904250ABAF400A0BA58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1571F91B250ABAF400A0BA58 /* Heisenberg.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1571F8B3250AAA5F00A0BA58 /* Methylamphetamine */ = {
@@ -146,12 +380,16 @@
 				1571F8B0250AAA5F00A0BA58 /* Sources */,
 				1571F8B1250AAA5F00A0BA58 /* Frameworks */,
 				1571F8B2250AAA5F00A0BA58 /* Resources */,
+				1571F923250ABAF400A0BA58 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1571F91D250ABAF400A0BA58 /* PBXTargetDependency */,
 			);
 			name = Methylamphetamine;
+			packageProductDependencies = (
+			);
 			productName = Methylamphetamine;
 			productReference = 1571F8B4250AAA5F00A0BA58 /* Methylamphetamine.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +430,46 @@
 			productReference = 1571F8D5250AAA6200A0BA58 /* MethylamphetamineUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		1571F908250ABAF400A0BA58 /* Heisenberg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1571F920250ABAF400A0BA58 /* Build configuration list for PBXNativeTarget "Heisenberg" */;
+			buildPhases = (
+				1571F904250ABAF400A0BA58 /* Headers */,
+				1571F905250ABAF400A0BA58 /* Sources */,
+				1571F906250ABAF400A0BA58 /* Frameworks */,
+				1571F907250ABAF400A0BA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heisenberg;
+			packageProductDependencies = (
+				1571F92C250ABBBC00A0BA58 /* Alamofire */,
+			);
+			productName = Heisenberg;
+			productReference = 1571F909250ABAF400A0BA58 /* Heisenberg.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1571F910250ABAF400A0BA58 /* HeisenbergTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1571F924250ABAF400A0BA58 /* Build configuration list for PBXNativeTarget "HeisenbergTests" */;
+			buildPhases = (
+				1571F90D250ABAF400A0BA58 /* Sources */,
+				1571F90E250ABAF400A0BA58 /* Frameworks */,
+				1571F90F250ABAF400A0BA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1571F914250ABAF400A0BA58 /* PBXTargetDependency */,
+				1571F916250ABAF400A0BA58 /* PBXTargetDependency */,
+			);
+			name = HeisenbergTests;
+			productName = HeisenbergTests;
+			productReference = 1571F911250ABAF400A0BA58 /* HeisenbergTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,9 +485,18 @@
 					};
 					1571F8C9250AAA6200A0BA58 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1170;
 						TestTargetID = 1571F8B3250AAA5F00A0BA58;
 					};
 					1571F8D4250AAA6200A0BA58 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1571F8B3250AAA5F00A0BA58;
+					};
+					1571F908250ABAF400A0BA58 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+					1571F910250ABAF400A0BA58 = {
 						CreatedOnToolsVersion = 11.6;
 						TestTargetID = 1571F8B3250AAA5F00A0BA58;
 					};
@@ -224,6 +511,9 @@
 				Base,
 			);
 			mainGroup = 1571F8AB250AAA5F00A0BA58;
+			packageReferences = (
+				1571F901250ABAAE00A0BA58 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 1571F8B5250AAA5F00A0BA58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +521,8 @@
 				1571F8B3250AAA5F00A0BA58 /* Methylamphetamine */,
 				1571F8C9250AAA6200A0BA58 /* MethylamphetamineTests */,
 				1571F8D4250AAA6200A0BA58 /* MethylamphetamineUITests */,
+				1571F908250ABAF400A0BA58 /* Heisenberg */,
+				1571F910250ABAF400A0BA58 /* HeisenbergTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +552,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1571F907250ABAF400A0BA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F90F250ABAF400A0BA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -267,9 +573,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159F93E4250F9569009A6637 /* FilterSelectorView.swift in Sources */,
+				1571F8F6250AACC400A0BA58 /* DetailScreenView.swift in Sources */,
+				1530F3862510EDDC0071D23A /* Set+Tools.swift in Sources */,
 				1571F8B8250AAA5F00A0BA58 /* AppDelegate.swift in Sources */,
 				1571F8BA250AAA5F00A0BA58 /* SceneDelegate.swift in Sources */,
-				1571F8BC250AAA5F00A0BA58 /* ContentView.swift in Sources */,
+				15B12880250ADFB500D64C33 /* PeopleData.swift in Sources */,
+				1530F3882510EDFF0071D23A /* HomeScreenViewModel.swift in Sources */,
+				15E460342510F5D2009B1890 /* UIImage+App.swift in Sources */,
+				1571F8F4250AACAF00A0BA58 /* HomeScreenView.swift in Sources */,
+				159F93E1250F896F009A6637 /* SearchBar.swift in Sources */,
+				15E460322510F260009B1890 /* DetailScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1571F8CF250AAA6200A0BA58 /* MethylamphetamineTests.swift in Sources */,
+				15E4603625114594009B1890 /* MethylamphetamineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +600,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				1571F8DA250AAA6200A0BA58 /* MethylamphetamineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F905250ABAF400A0BA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1571F935250AC81700A0BA58 /* Export.swift in Sources */,
+				1571F931250AC00000A0BA58 /* FetchHeisenberg.swift in Sources */,
+				1571F930250ABF1600A0BA58 /* Person.swift in Sources */,
+				1571F92A250ABB1C00A0BA58 /* FetchWorker.swift in Sources */,
+				1571F933250AC68200A0BA58 /* FetchError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1571F90D250ABAF400A0BA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1571F919250ABAF400A0BA58 /* HeisenbergTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +635,21 @@
 			isa = PBXTargetDependency;
 			target = 1571F8B3250AAA5F00A0BA58 /* Methylamphetamine */;
 			targetProxy = 1571F8D6250AAA6200A0BA58 /* PBXContainerItemProxy */;
+		};
+		1571F914250ABAF400A0BA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1571F908250ABAF400A0BA58 /* Heisenberg */;
+			targetProxy = 1571F913250ABAF400A0BA58 /* PBXContainerItemProxy */;
+		};
+		1571F916250ABAF400A0BA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1571F8B3250AAA5F00A0BA58 /* Methylamphetamine */;
+			targetProxy = 1571F915250ABAF400A0BA58 /* PBXContainerItemProxy */;
+		};
+		1571F91D250ABAF400A0BA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1571F908250ABAF400A0BA58 /* Heisenberg */;
+			targetProxy = 1571F91C250ABAF400A0BA58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -433,6 +782,7 @@
 		1571F8DF250AAA6200A0BA58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Methylamphetamine/Preview Content\"";
@@ -446,13 +796,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.Methylamphetamine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1571F8E0250AAA6200A0BA58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Methylamphetamine/Preview Content\"";
@@ -466,7 +817,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.Methylamphetamine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -475,6 +826,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9MEAMLKZY6;
 				INFOPLIST_FILE = MethylamphetamineTests/Info.plist;
@@ -486,6 +838,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.MethylamphetamineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methylamphetamine.app/Methylamphetamine";
@@ -497,6 +850,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9MEAMLKZY6;
 				INFOPLIST_FILE = MethylamphetamineTests/Info.plist;
@@ -554,6 +908,103 @@
 			};
 			name = Release;
 		};
+		1571F921250ABAF400A0BA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Heisenberg/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.Heisenberg;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1571F922250ABAF400A0BA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Heisenberg/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.Heisenberg;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1571F925250ABAF400A0BA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				INFOPLIST_FILE = HeisenbergTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.HeisenbergTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methylamphetamine.app/Methylamphetamine";
+			};
+			name = Debug;
+		};
+		1571F926250ABAF400A0BA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9MEAMLKZY6;
+				INFOPLIST_FILE = HeisenbergTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.einstore.HeisenbergTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Methylamphetamine.app/Methylamphetamine";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,7 +1044,44 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1571F920250ABAF400A0BA58 /* Build configuration list for PBXNativeTarget "Heisenberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1571F921250ABAF400A0BA58 /* Debug */,
+				1571F922250ABAF400A0BA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1571F924250ABAF400A0BA58 /* Build configuration list for PBXNativeTarget "HeisenbergTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1571F925250ABAF400A0BA58 /* Debug */,
+				1571F926250ABAF400A0BA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1571F901250ABAAE00A0BA58 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1571F92C250ABBBC00A0BA58 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1571F901250ABAAE00A0BA58 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1571F8AC250AAA5F00A0BA58 /* Project object */;
 }

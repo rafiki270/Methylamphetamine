@@ -1,13 +1,5 @@
-//
-//  SceneDelegate.swift
-//  Methylamphetamine
-//
-//  Created by Ondrej Rafaj on 10/09/2020.
-//  Copyright © 2020 Einstore. All rights reserved.
-//
-
-import UIKit
 import SwiftUI
+
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -20,7 +12,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let contentView = HomeScreenView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
